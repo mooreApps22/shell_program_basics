@@ -18,4 +18,9 @@
 * Basic systax of a full command line
   * Command A | Command B | Command C > outfile < infile 2> errfile
     * **Important Notes!!**
+      * Command A creates an output to B, and B to C ...
+      * ```>``` will output the outfile
+      * ```<``` will output from the infile into Command A
+      * ```2>``` will output any standard error message to the errfile
+        * dkdkad
 3. Shell Subsystems
