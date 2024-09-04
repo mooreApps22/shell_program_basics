@@ -26,6 +26,7 @@
         * stderr will only output to errfile in two cases that I know of:
           * The final pipeline command has and error
           * The entire pipeline inside is self contained
+          * ```>&``` will output a simple command error to errfile
 ```
 ls | grep "all" | non-command > output < infile 2> errfile
 ```
