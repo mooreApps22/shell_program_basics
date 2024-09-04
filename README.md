@@ -5,7 +5,7 @@
 ## **A shell program is a app that allows interacting with the Operating System**
 ### **Parts of a Shell Program**
 
-Note: All syntax is in bash
+Note: All syntax is in bash!
 
 1. The Parser
 * Interprets the command line and puts it into ```typedef struct s_cmd_tab```
