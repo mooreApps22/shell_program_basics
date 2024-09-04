@@ -17,5 +17,5 @@
   * standard output (the terminal, but with system error messages)
 * Basic systax of a full command line
   * Command A | Command B | Command C > outfile < infile 2> errfile
-    * Important Notes 
+    * **Important Notes!!**
 3. Shell Subsystems
