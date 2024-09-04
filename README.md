@@ -48,4 +48,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
   * arguments contain a sequence of characters and a ```*``` and are expanded to all files that match inside the directory
   * ```echo *.txt``` would output the text of all file in the directory that end in '.txt'
 * Subshells
-  * Arguments between ``` `` ```   
+  * Arguments between ``` `` ``` are exectued and output to the shell
+4. ddd
