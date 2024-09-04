@@ -42,5 +42,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * EX: ```echo -n ${PATH}$'\n'```
   * A shell should be able to set, expand, and print environment variables
     * set:  ```export MY_VAR="Hello World"```
-    * expand: ```echo $MY_VAR```
-    * print: ```echo "Hello, $MY_VAR"``` or ```echo '$MY_VAR'```
+    * expand: ```echo $MY_VAR``` (notice there is no quotes)
+    * print: ```echo "Hello, $MY_VAR"``` or ```echo '$MY_VAR'``` (notice there is quotes)
