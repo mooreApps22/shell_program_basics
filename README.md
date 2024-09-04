@@ -28,7 +28,7 @@
 ```
 ls | grep "all" | non-command > output < infile 2> errfile
 ```
-         * The entire pipeline inside ```{;}```
+         * The entire pipeline inside is self contained
 ```
  { ls --invalid-option | grep "all" | wc -c; } > output < infile 2> errfile
 ```
