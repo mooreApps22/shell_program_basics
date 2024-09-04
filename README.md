@@ -5,6 +5,8 @@
 ## **A shell program is a app that allows interacting with the Operating System**
 ### **Parts of a Shell Program**
 
+## Note: All syntax is in bash
+
 1. The Parser
 * Interprets the command line and puts it into ```typedef struct s_cmd_tab```
 * ```t_cmd_tab``` stores the commands that will be executed
@@ -37,4 +39,6 @@ ls | grep "all" | non-command > output < infile 2> errfile
 * Environment Variables
   * ```$VAR``` is mostly the same as ```${VAR}```
     * ```${VAR}``` will keep variable from getting combined
-  * EX; ```echo -n ${PATH}$'\n'```
+    * EX: ```echo -n ${PATH}$'\n'```
+  * A shell should be able to set, expand, and print environment variables
+    * set:  
