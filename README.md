@@ -24,5 +24,12 @@
       * ```2>``` will output any standard error message to the errfile
         * The normal output for an stderr is stdout
         * stderr will only output to errfile in two cases that I know of:
-           1. dddd
+           1. The final pipeline command has and error
+```
+ls | grep "all" | non-command > output < infile 2> errfile
+```
+           3. The entire pipeline inside ```{;}```
+```
+ { ls --invalid-option | grep "all" | wc -c; } > output < infile 2> errfile
+```
 3. Shell Subsystems
