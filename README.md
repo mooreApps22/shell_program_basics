@@ -25,10 +25,10 @@
         * The normal output for an stderr is stdout
         * stderr will only output to errfile in two cases that I know of:
          * The final pipeline command has and error
+         * The entire pipeline inside is self contained
 ```
 ls | grep "all" | non-command > output < infile 2> errfile
 ```
-         * The entire pipeline inside is self contained
 ```
  { ls --invalid-option | grep "all" | wc -c; } > output < infile 2> errfile
 ```
