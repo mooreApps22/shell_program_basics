@@ -24,8 +24,8 @@
       * ```2>``` will output any standard error message to the errfile
         * The normal output for an stderr is stdout
         * stderr will only output to errfile in two cases that I know of:
-         * The final pipeline command has and error
-         * The entire pipeline inside is self contained
+          * The final pipeline command has and error
+          * The entire pipeline inside is self contained
 ```
 ls | grep "all" | non-command > output < infile 2> errfile
 ```
