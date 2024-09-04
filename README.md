@@ -41,4 +41,6 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * ```${VAR}``` will keep variable from getting combined
     * EX: ```echo -n ${PATH}$'\n'```
   * A shell should be able to set, expand, and print environment variables
-    * set:  
+    * set:  ```export MY_VAR="Hello World"```
+    * expand: ```echo $MY_VAR```
+    * print: ```echo "Hello, $MY_VAR"``` or ```echo '$MY_VAR'```
