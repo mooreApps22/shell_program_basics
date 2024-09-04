@@ -22,5 +22,7 @@
       * ```>``` will output the outfile
       * ```<``` will output from the infile into Command A
       * ```2>``` will output any standard error message to the errfile
-        * dkdkad
+        * The normal output for an stderr is stdout
+        * stderr will only output to errfile in two cases that I know of:
+           1. dddd
 3. Shell Subsystems
