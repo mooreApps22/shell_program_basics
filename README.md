@@ -2,7 +2,7 @@
 
 [GGR](https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/Book/Chapter5-WritingYourOwnShell.pdf)
 
-## **A shell program is a app that allows interacting with the Operating System
+## **A shell program is a app that allows interacting with the Operating System**
 ### **Parts of a Shell Program**
 
 1. The Parser
