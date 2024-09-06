@@ -8,7 +8,7 @@
 Note: All syntax is in bash!
 
 1. Motivation
-  * It is recommended that you make your own shell form scratch. This will improve your understanding of how the shell interprets applications and interacts with the Operating System
+* It is recommended that you make your own shell form scratch. This will improve your understanding of how the shell interprets applications and interacts with the Operating System
   * It also looks good in a portfolio 🙂
 2. The Parser
   * Interprets the command line and puts it into ```typedef struct s_cmd_tab```
@@ -52,5 +52,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * ```echo *.txt``` would output the text of all file in the directory that end in '.txt'
   * Subshells
     * Arguments between ``` `` ``` are exectued and output to the shell
-5. Lexical Analyzer
+5. Lexical Analyzer or Lexer ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics)
  * 
