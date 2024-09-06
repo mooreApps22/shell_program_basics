@@ -54,7 +54,7 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * Arguments between ``` `` ``` are exectued and output to the shell
 5. The Parser
  * The parser consists of two parts
-   * Lexical Analyzer or Lexer [flex_wiki](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)) [flex_docs] (https://www.gnu.org/software/bison/manual/bison.html#FAQ)
+   * Lexical Analyzer or Lexer [flex_wiki](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)) [flex_docs](https://github.com/westes/flex)
    * Token-sequence analyzeror [bison_wiki](https://en.wikipedia.org/wiki/GNU_Bison) [bison_docs](https://www.gnu.org/software/bison/manual/bison.html#FAQ)
  * Useful Terms
      * Lexicon - all recognized words or tokens
