@@ -62,5 +62,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
      * Semantics - logical use of statements in a particular context
      * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data
  * The lexer is the part of the program that is used to scan the command line and break it up into individual tokens (for ex: ```ls directory_a``` is two tokens)
- * THe 
+ * **T**HE 
 
