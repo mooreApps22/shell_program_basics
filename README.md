@@ -52,5 +52,14 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * ```echo *.txt``` would output the text of all file in the directory that end in '.txt'
   * Subshells
     * Arguments between ``` `` ``` are exectued and output to the shell
-5. Lexical Analyzer or Lexer ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics))
- * 
+5. The Parser
+ * The parser consists of two parts
+   * Lexical Analyzer or Lexer
+   * 
+ * Useful Terms ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics))
+     * Lexicon - all recognized words or tokens
+     * Syntax - structure for creating valid statements
+     * Semantics - logical use of statements in a particular context
+     * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data
+ * The lexer is the part of the program that is used to scan the command line and break it up into individual tokens (for ex: ```ls directory_a``` is two tokens)
+
