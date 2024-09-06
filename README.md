@@ -54,13 +54,13 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * Arguments between ``` `` ``` are exectued and output to the shell
 5. The Parser
  * The parser consists of two parts
-   * Lexical Analyzer or Lexer [flex_wiki](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)) | [flex_docs](https://github.com/westes/flex)
-   * Token-sequence analyzeror [bison_wiki](https://en.wikipedia.org/wiki/GNU_Bison) | [bison_docs](https://www.gnu.org/software/bison/manual/bison.html#FAQ)
+   * Lexical Analyzer or Lexer [flex_wiki](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)) | [flex_docs](https://westes.github.io/flex/manual/)
+   * Token-sequence analyzer [bison_wiki](https://en.wikipedia.org/wiki/GNU_Bison) | [bison_docs](https://www.gnu.org/software/bison/manual/bison.html#FAQ)
  * Useful Terms
      * Lexicon - all recognized words or tokens
      * Syntax - structure for creating valid statements
      * Semantics - logical use of statements in a particular context
      * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data
  * The lexer is the part of the program that is used to scan the command line and break it up into individual tokens (for ex: ```ls directory_a``` is two tokens)
- * **T**HE 
+ * The token-sequence analyzer is the part of the program that scans the all tokens in the context of a syntax and  
 
