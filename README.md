@@ -52,5 +52,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * ```echo *.txt``` would output the text of all file in the directory that end in '.txt'
   * Subshells
     * Arguments between ``` `` ``` are exectued and output to the shell
-5. Lexical Analyzer or Lexer ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics)
+5. Lexical Analyzer or Lexer ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics))
  * 
