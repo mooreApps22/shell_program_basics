@@ -61,6 +61,17 @@ ls | grep "all" | non-command > output < infile 2> errfile
      * Syntax - structure for creating valid statements
      * Semantics - logical use of statements in a particular context
      * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data
- * The lexer is the part of the program that is used to scan the command line and break it up into individual tokens (for ex: ```ls directory_a``` is two tokens)
- * The token-sequence analyzer is the part of the program that scans the all tokens in the context of a syntax and  
+  
+6. Flex
+  * A scanner is a program which recognizes lexical patterns in text
+    * It reads the given input and generates a description
+      * Input could be input files or stdin
+    * The description is in the form of pairs of regular expressions called **rules**
+      * In flex this is output as a ```lex.yy.c``` by default
+      *  a ```lex.yy.c``` defines a routine ```yylex()```
+    * ```lex.yy.c``` can be compiled and linked with the flex runtime library to produce an executable
+      * when it is executed it analyszes its input for occurrences of the **regular expressions**
+      * whenever it finds one it executes the corresponding C code
+ * Format
+   *    
 
