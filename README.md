@@ -60,18 +60,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
      * Lexicon - all recognized words or tokens
      * Syntax - structure for creating valid statements
      * Semantics - logical use of statements in a particular context
-     * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data
-  
-6. Flex
-  * A scanner is a program which recognizes lexical patterns in text
-    * It reads the given input and generates a description
-      * Input could be input files or stdin
-    * The description is in the form of pairs of regular expressions called **rules**
-      * In flex this is output as a ```lex.yy.c``` by default
-      *  a ```lex.yy.c``` defines a routine ```yylex()```
-    * ```lex.yy.c``` can be compiled and linked with the flex runtime library to produce an executable
-      * when it is executed it analyszes its input for occurrences of the **regular expressions**
-      * whenever it finds one it executes the corresponding C code
- * Format
-   *    
+     * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data     
 
