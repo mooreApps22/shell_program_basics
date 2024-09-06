@@ -54,8 +54,8 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * Arguments between ``` `` ``` are exectued and output to the shell
 5. The Parser
  * The parser consists of two parts
-   * Lexical Analyzer or Lexer
-   * 
+   * Lexical Analyzer or Lexer [flex](https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator))
+   * Token-sequence analyzeror [bison](https://en.wikipedia.org/wiki/GNU_Bison)
  * Useful Terms ([lexicon](https://www.baeldung.com/cs/lexicon-vs-syntax-vs-semantics))
      * Lexicon - all recognized words or tokens
      * Syntax - structure for creating valid statements
