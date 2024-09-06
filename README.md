@@ -39,7 +39,7 @@ ls | grep "all" | non-command > output < infile 2> errfile
 { ls --invalid-option | grep "all" | wc -c; } > output < infile 2> errfile
 ```
 4. Shell Subsystems
-  * Environment Variables
+   * Environment Variables
     * ```$VAR``` is mostly the same as ```${VAR}```
       * ```${VAR}``` will keep variable from getting combined
       * EX: ```echo -n ${PATH}$'\n'```
@@ -52,4 +52,5 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * ```echo *.txt``` would output the text of all file in the directory that end in '.txt'
   * Subshells
     * Arguments between ``` `` ``` are exectued and output to the shell
-5. Lex and Yacc
+5. Lexical Analyzer
+ * 
