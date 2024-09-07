@@ -59,6 +59,11 @@ ls | grep "all" | non-command > output < infile 2> errfile
  * Useful Terms
      * Lexicon - all recognized words or tokens
      * Syntax - structure for creating valid statements
-     * Semantics - logical use of statements in a particular context
-     * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data    
+  
+# Executor
 
+1. The executor takes the command table from the parser.
+ * For every simple command in the array it will create a new process.
+ * If needed, it creates pipes to communicate the output of one process to the input of the next one
+ * Also if needed, it redirects stdin, stdout, and stderr
+ * 
