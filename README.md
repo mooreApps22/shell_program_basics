@@ -61,4 +61,4 @@ ls | grep "all" | non-command > output < infile 2> errfile
      * Syntax - structure for creating valid statements
      * Semantics - logical use of statements in a particular context
      * Parse - a technique used to analyze and interpret the syntax of a text to extract relevant data     
-
+6. 
