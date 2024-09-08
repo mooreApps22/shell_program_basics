@@ -62,8 +62,8 @@ ls | grep "all" | non-command > output < infile 2> errfile
   
 # Executor
 
-[Bash])(https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f)
-[C])(https://sourceware.org/glibc/manual/latest/html_mono/libc.html#Library-Summary)
+[Bash](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f)
+[C](https://sourceware.org/glibc/manual/latest/html_mono/libc.html#Library-Summary)
 [Make](https://www.gnu.org/software/make/manual/make.html)
 [Autoconf](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.72/autoconf.html)
 
