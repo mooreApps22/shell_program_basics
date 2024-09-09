@@ -89,4 +89,23 @@
     * Multiple simple commands can be arranged together in various way to make Compound commands
     * **Reserved words** are keywords that are used to begin and end
     * ```for i in {1..5}; do echo "Num: $i"; done```
-      * ```for``` ```in``` ```do``` ```done``` are all reserve words 
+      * ```for``` ```in``` ```do``` ```done``` are all reserve words
+    * Reserve Words
+      * if
+      * for
+      * case
+      * then
+      * in
+      * esac
+      * elif
+      * until
+      * coproc
+      * else
+      * while
+      * select
+      * fi
+      * do
+      * function
+      * time
+      * done
+      * ```{``` ````}``` ```[[``` ```]]```  
