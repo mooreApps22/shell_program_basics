@@ -78,4 +78,10 @@ ls | grep "all" | non-command > output < infile 2> errfile
 * Executing Commands
 * Shell Scripts
 2. Reading input
-*. 
+* Reading is a sequence of operations
+  * **comments** are ignored ```#``` indicates a comment in bash
+  * If not a comment, the input is parsed into **words** and **operators**, both known as **tokens**
+    * When parsing, the quoting rules are applied
+    * Tokens are separated by **metacharacters** or symbols with special meaning
+    * Aliases are **expanded**
+  * 
