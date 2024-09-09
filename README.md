@@ -68,8 +68,14 @@ ls | grep "all" | non-command > output < infile 2> errfile
 [Autoconf](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.72/autoconf.html)
 
 
-1. The executor takes the command table from the parser.
- * For every simple command in the array it will create a new process.
- * If needed, it creates pipes to communicate the output of one process to the input of the next one
- * Also if needed, it redirects stdin, stdout, and stderr
- * 
+1. The building blocks of the bash shell are:
+* Commands
+* Control structures
+* Shell Functions
+* Shell Parameters
+* Shell Expansions
+* Redirections
+* Executing Commands
+* Shell Scripts
+2. Reading input
+*. 
