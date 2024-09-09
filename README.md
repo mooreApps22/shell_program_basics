@@ -84,4 +84,10 @@ ls | grep "all" | non-command > output < infile 2> errfile
     * When parsing, the quoting rules are applied
     * Tokens are separated by **metacharacters** or symbols with special meaning
     * Aliases are **expanded**
-  * 
+  * Various shell expansions are done:
+    * Shell Expansions
+      * brace, tilde, parameter and variable, command substitution, arithmetic epansion, word splitting, filename expansion
+  * Break expanded tokens into lists of filenames, commands, and arguments
+    * Filename expansion
+      *  
+  *   
