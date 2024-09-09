@@ -69,6 +69,19 @@
     * Waits for the command's exit status
     * Makes the exit status available for further use
 4. Shell Operation
-   * 1. Reads input from a file:
-     2. kdd
-     3. kdkd
+   * 1. Reads input from a file or string argument
+     2. Breaks input into words & operators (obeys quoting rules)
+     3. Parses tokens into simple commands and compound commands
+     4. Performs expansions
+     5. Peforms redirections
+     6. Executes command
+     7. May wait on command to complete and then collect its exit status
+5.  Quoting
+    * **Metacharacter** are ```|``` ```&``` ```;``` ```(``` ```)``` ```<``` ```>``` also included 'space', 'tab', and 'newline'
+      * When unquoted separates words
+    * Quoting is used to remove special meaning to metacharacters, making it's just a character
+    * Three quoting mechanisms: 
+      * Escape charcter ```\```
+      * Single quotes - preserves the literal value of each character
+      * Double quotes - preserves literal value of all characters, except ```$``` ``` ` ``` ```\```
+      *  
