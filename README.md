@@ -91,21 +91,37 @@
     * ```for i in {1..5}; do echo "Num: $i"; done```
       * ```for``` ```in``` ```do``` ```done``` are all reserve words
     * Reserve Words
-      * if
+      * if 
       * for
-      * case
+      * case - similar to a switch statement used ```;;```
       * then
-      * in
-      * esac
+      * in - used with case and for
+      * esac - ends a case
       * elif
       * until
       * coproc
       * else
       * while
       * select
-      * fi
+      * fi - ends a if
       * do
       * function
       * time
       * done
-      * ```{``` ````}``` ```[[``` ```]]```  
+      * {
+      * }
+      * [[
+      * ]]
+      * !
+   * Simple Commands
+     * This is what is used most of the time
+     * A sequence of words separated by blanks
+     * The first word is usually a command the rest of the words are arguments for that command
+     * The return status of a simple command is provided by POSIX or 128+n if terminated by signal n
+     *  Exit Status
+       * de tour
+     * Pipelines
+       * A sequence of one or more commands separated by ```|``` or ```|&```
+         * ```|``` Each commands output is the input for the next command
+         * ```|&``` adds stderr
+         * If the pipeline is not executed asynchronously, the shell waits for all commands in the pipeline to complete   
