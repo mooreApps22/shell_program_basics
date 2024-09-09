@@ -84,4 +84,9 @@
       * Escape charcter ```\```
       * Single quotes - preserves the literal value of each character
       * Double quotes - preserves literal value of all characters, except ```$``` ``` ` ``` ```\```
-      *  
+ 6. Shell Commands
+    * Simple command example: ```echo "Hello world"```
+    * Multiple simple commands can be arranged together in various way to make Compound commands
+    * **Reserved words** are keywords that are used to begin and end
+    * ```for i in {1..5}; do echo "Num: $i"; done```
+      * ```for``` ```in``` ```do``` ```done``` are all reserve words 
