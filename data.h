@@ -10,7 +10,7 @@ typedef	struct s_process
 	pid_t			pid;
 	char			completed;		// true if process has completed
 	char			stopped;		// true if process has stopped 
-	int				status;		// exit status
+	int			status;			// exit status
 } t_process;
 
 // A job is a pipeline of processes
