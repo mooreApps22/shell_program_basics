@@ -5,7 +5,7 @@
 // A process is a single process
 typedef	struct s_process 
 {	
-	struct process	*next;				// next process in pipeline
+	struct process		*next;			// next process in pipeline
 	char			**cmdv;			// for the execve() 2nd arg
 	pid_t			pid;
 	char			completed;		// true if process has completed
