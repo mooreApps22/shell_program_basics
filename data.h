@@ -14,7 +14,6 @@ typedef	struct s_process
 } t_process;
 
 // A job is a pipeline of processes
-
 typedef	struct s_job 
 {
 	struct job		*next;			// next active job
