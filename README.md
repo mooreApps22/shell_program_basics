@@ -12,6 +12,8 @@
 [Make](https://www.gnu.org/software/make/manual/make.html)|
 [Autoconf](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.72/autoconf.html)
 
+[OpenGroup](https://publications.opengroup.org/)
+
 # What is a shell
 
 1. A shell is a macro processor that executes commands
